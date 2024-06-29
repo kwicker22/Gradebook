@@ -1,6 +1,6 @@
 public class Assignments {
-    private int assignment_id;
-    private String assignmentname;
+    public int assignment_id;
+    public String assignmentname;
     private Course course;
 
 

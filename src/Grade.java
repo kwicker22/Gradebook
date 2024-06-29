@@ -19,6 +19,8 @@ public class Grade {
     public void setAssignment(Assignments assignment) {this.assignment= assignment;}
     public Students getStudent(){ return student;}
     public void setStudent(Students student) {this.student = student;}
+    public int getGrade() {return grade;}
+    public void setGrade(int grade) {this.grade = grade;}
 
     @Override
     public String toString() {
